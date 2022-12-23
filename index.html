@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>IMAGE EDITOR JAVASCRIPT</h1>
+    <div id="image-container">
+      <img
+        src="https://images.unsplash.com/photo-1633109956509-5303bda0cd7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+        alt=""
+        id="img"
+      />
+    </div>
+    <section id="sidebar">
+      <div class="blur-container flex">
+        <p class="filter-title">BLUR</p>
+        <input type="range" name="blur" id="blur-slider" min="0" max="100" />
+      </div>
+      <div class="contrast-container flex">
+        <p class="filter-title">CONTRAST</p>
+        <input type="range" name="contrast" id="contrast-slider" />
+      </div>
+      <div class="gray-container flex">
+        <p class="filter-title">GRAYSCALE</p>
+        <input type="range" name="gray" id="gray-slider" />
+      </div>
+      <div class="hue-container flex">
+        <p class="filter-title">HUE</p>
+        <input type="range" name="hue" id="hue-slider" />
+      </div>
+      <div class="invert-container flex">
+        <p class="filter-title">INVERT</p>
+        <input type="range" name="invert" id="invert-slider" />
+      </div>
+      <div class="opacity-container flex">
+        <p class="filter-title">OPACITY</p>
+        <input type="range" name="opacity" id="opacity-slider" />
+      </div>
+      <div class="saturate-container flex">
+        <p class="filter-title">SATURATE</p>
+        <input type="range" name="saturate" id="saturate-slider" />
+      </div>
+      <div class="sepia-container flex">
+        <p class="filter-title">SEPIA</p>
+        <input type="range" name="sepia" id="sepia-slider" />
+      </div>
+    </section>
+  </body>
+</html>
