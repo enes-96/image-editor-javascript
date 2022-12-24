@@ -10,46 +10,122 @@
   </head>
   <body>
     <h1>IMAGE EDITOR JAVASCRIPT</h1>
-    <div id="image-container">
-      <img
-        src="https://images.unsplash.com/photo-1633109956509-5303bda0cd7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
-        alt=""
-        id="img"
-      />
+    <div class="blur-wrapper img-heihgt">
+      <div class="contrast-wrapper img-heihgt">
+        <div class="gray-wrapper img-heihgt">
+          <div class="hue-wrapper img-heihgt">
+            <div class="invert-wrapper img-heihgt">
+              <div class="opacity-wrapper img-heihgt">
+                <div class="saturate-wrapper img-heihgt">
+                  <div class="sepia-wrapper img-heihgt">
+                    <div id="image-container">
+                      <img
+                        src="https://images.unsplash.com/photo-1633109956509-5303bda0cd7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+                        alt=""
+                        id="img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <section id="sidebar">
       <div class="blur-container flex">
         <p class="filter-title">BLUR</p>
-        <input type="range" name="blur" id="blur-slider" min="0" max="100" />
+        <input
+          type="range"
+          name="blur"
+          id="blur-slider"
+          min="0"
+          max="100"
+          value="0"
+        />
       </div>
       <div class="contrast-container flex">
         <p class="filter-title">CONTRAST</p>
-        <input type="range" name="contrast" id="contrast-slider" />
+        <input
+          type="range"
+          name="blur"
+          id="contrast-slider"
+          min="0"
+          max="100"
+          value="100"
+        />
       </div>
       <div class="gray-container flex">
         <p class="filter-title">GRAYSCALE</p>
-        <input type="range" name="gray" id="gray-slider" />
+        <input
+          type="range"
+          name="blur"
+          id="gray-slider"
+          min="0"
+          max="100"
+          value="0"
+        />
       </div>
       <div class="hue-container flex">
         <p class="filter-title">HUE</p>
-        <input type="range" name="hue" id="hue-slider" />
+        <input
+          type="range"
+          name="blur"
+          id="hue-slider"
+          min="0"
+          max="100"
+          value="0"
+        />
       </div>
       <div class="invert-container flex">
         <p class="filter-title">INVERT</p>
-        <input type="range" name="invert" id="invert-slider" />
+        <input
+          type="range"
+          name="blur"
+          id="invert-slider"
+          min="0"
+          max="100"
+          value="0"
+        />
       </div>
       <div class="opacity-container flex">
         <p class="filter-title">OPACITY</p>
-        <input type="range" name="opacity" id="opacity-slider" />
+        <input
+          type="range"
+          name="blur"
+          id="opacity-slider"
+          min="0"
+          max="100"
+          value="100"
+        />
       </div>
       <div class="saturate-container flex">
         <p class="filter-title">SATURATE</p>
-        <input type="range" name="saturate" id="saturate-slider" />
+        <input
+          type="range"
+          name="blur"
+          id="saturate-slider"
+          min="0"
+          max="100"
+          value="1"
+        />
       </div>
       <div class="sepia-container flex">
         <p class="filter-title">SEPIA</p>
-        <input type="range" name="sepia" id="sepia-slider" />
+        <input
+          type="range"
+          name="blur"
+          id="sepia-slider"
+          min="0"
+          max="100"
+          value="0"
+        />
       </div>
     </section>
+    <footer>
+      <p class="footer-title">BORDER:</p>
+      <input type="color" name="border-color" id="border-color" />
+    </footer>
   </body>
 </html>

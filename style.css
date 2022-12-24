@@ -25,16 +25,27 @@ section {
   justify-content: space-around;
   padding: 24px;
 }
-div {
-  width: 100%;
-  padding-top: 32px;
-  display: flex;
-  justify-content: center;
-}
 .flex {
   display: flex;
   justify-content: space-between;
 }
 .filter-title {
   font-size: 20px;
+}
+img {
+  border: 12px solid teal;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  gap: 42px;
+}
+input[type="color"] {
+  width: 20%;
 }
