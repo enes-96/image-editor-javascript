@@ -11,8 +11,6 @@ const opacityFilter = document.getElementById("opacity-slider");
 const saturateFilter = document.getElementById("saturate-slider");
 const sepiaFilter = document.getElementById("sepia-slider");
 
-const imgBorder = document.getElementById("border-color");
-
 blurFilter.addEventListener("input", (e) => {
   const blurWrapper = document.querySelector(".blur-wrapper");
   blurWrapper.style.filter = `blur(${blurFilter.value}px)`;
@@ -55,6 +53,7 @@ sepiaFilter.addEventListener("input", () => {
   console.log(`sepia(${sepiaFilter.value})`);
 });
 
+const imgBorder = document.getElementById("border-color");
 imgBorder.addEventListener("input", () => {
   img.style.border = `12px solid ${imgBorder.value}`;
 });
